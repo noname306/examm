@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    background: rgb(39, 44, 61);
+}
+
+.header_link {
+    color: rgb(255, 255, 255);
+    font-family: "Quantico";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    transition: 0.5s ease-in-out;
+}
+
+.header_link:hover {
+    color: rgb(255, 156, 40);
+}
+
+.header_right_input {
+    border-radius: 5px;
+    background: rgb(64, 72, 100);
+    height: 30px;
+    width: 241.87px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_inpuut {
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown {
+    flex-direction: column;
+    gap: 13px;
+    align-items: centre;
+    padding: 10px;
+    width: 99px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 0px rgb(255, 255, 255);
+    background: rgb(35, 32, 40);
+    position: absolute;
+}
+
+.header_dropdownbox {
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 165.49px;
+    height: 30px;
+}
+
+.header_linkk {
+    color: rgba(255, 255, 255, 0.8);
+font-family: "Quantico";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.dropdown_link {
+    color: rgba(255, 255, 255, 0.8);
+font-family: "Quantico";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.dropdown{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    gap: 25.46px;
+}
+
+.header_right {
+    display: flex;
+    gap: 36.19px;
+}
+
+.hero_wrapper {
+    background-image: url(./images/Bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.herotwo_title {
+    color: rgb(255, 255, 255);
+    font-family: Quantico;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    margin-left: 551px;
+}
+
+.herotwo {
+    background-color: rgb(20, 20, 24);
+}
+
+.herotwo_list {
+    display: flex;
+    align-items: centre;
+}
+
+.herotwo_img {
+    padding-left: 156px;
+}
+
+.wrap_title {
+    color: rgb(255, 255, 255);
+font-family: "Quantico";
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+padding: 61px 593px 30px 245px;
+}
+
+.wrap {
+    background-color: rgb(36, 37, 45);
+    padding-bottom: 40px;
+}
+
+.wrap_text {
+    color: rgb(191, 191, 191);
+font-family: "Quantico";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+width: 323px;
+}
+
+.wrap_box {
+    display: flex;
+    gap: 17px;
+    width: 740px;
+    margin: 0 auto;
+}
+
+.footer {
+    padding: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    background: rgb(39, 44, 61);
+}
+
+.footer_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
